@@ -1,4 +1,5 @@
 [build]
+  base = "/" # Or leave it blank since your project is in the root
   command = "npm install && npm run build"
   publish = ".next"
 
